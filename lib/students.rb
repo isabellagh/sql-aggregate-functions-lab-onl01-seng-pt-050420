@@ -2,12 +2,11 @@
 
 def highest_student_gpa
   SELECT MAX("gpa") FROM students.rb;
-end 
 end
 
 def lowest_student_gpa
   SELECT MIN("gpa") FROM students.rb;
-end 
+
 end
 
 def average_student_gpa
