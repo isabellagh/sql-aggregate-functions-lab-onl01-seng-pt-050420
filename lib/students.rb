@@ -5,7 +5,7 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
-  SELECT MIN(column_name) FROM table_name;
+  SELECT MIN("gpa") FROM students.rb;
 
 end
 
